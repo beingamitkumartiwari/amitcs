@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeDev" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/my_primary_color</item>
+        <item name="colorPrimaryDark">@color/my_primary_dark_color</item>
+        <item name="colorAccent">@color/my_accent_color</item>
+        <item name="colorControlNormal">@color/my_control_normal_color</item>
+        <item name="colorControlActivated">@color/my_control_activated_color</item>
+        <item name="colorControlHighlight">@color/my_control_highlight_color</item>
+        <item name="android:windowBackground">@color/myDrawerBackground</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="DevenTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/my_primary_color</item>
+        <item name="colorPrimaryDark">@color/my_primary_dark_color</item>
+        <item name="colorAccent">@color/my_accent_color</item>
+        <item name="colorControlNormal">@color/my_control_normal_color</item>
+        <item name="colorControlActivated">@color/my_control_activated_color</item>
+        <item name="colorControlHighlight">@color/my_control_highlight_color</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:windowBackground">@color/myDrawerBackground</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="ThemeDevFullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimary">@color/my_primary_color</item>
+        <item name="colorPrimaryDark">@color/my_primary_dark_color</item>
+        <item name="colorAccent">@color/my_accent_color</item>
+        <item name="colorControlNormal">@color/my_control_normal_color</item>
+        <item name="colorControlActivated">@color/my_control_activated_color</item>
+        <item name="colorControlHighlight">@color/my_control_highlight_color</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:windowBackground">@color/myDrawerBackground</item>
+    </style>
+
+    <!--  Transparent dialog -->
+    <style name="CustomProgressDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/dialog_shape_main"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_shape1"
+            android:padding="10dp"
+            android:text="Security Alert"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"  />
+
+        <TextView
+            android:id="@+id/sec_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"  />
+
+        <EditText
+            android:id="@+id/sec_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/message_field"
+            android:gravity="center"
+            android:hint="Enter security answer"
+            android:padding="5dp"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/confirm_ans"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/selector_button2"
+            android:theme="@android:style/Theme"
+            android:text="OK"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

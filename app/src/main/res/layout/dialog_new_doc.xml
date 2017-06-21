@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="275dp"
+    android:background="#D6D7D7"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:text="New Document name"
+        android:textColor="@color/my_primary_color"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:contentDescription="@string/app_name" />
+    <EditText
+        android:id="@+id/newDocName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/list_item_title"
+        android:textSize="16sp"
+        android:theme="@style/DevenTheme"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/new_doc" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/cancel_bt"
+            android:theme="@style/DevenTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textSize="16sp"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:textColor="@color/my_primary_color" />
+
+        <Button
+            android:id="@+id/ok_bt"
+            android:theme="@style/DevenTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:textColor="@color/my_primary_color"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="15dp"
+            android:padding="10dp" />
+        </LinearLayout>
+</LinearLayout>

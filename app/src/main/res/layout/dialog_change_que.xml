@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_shape_main"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_shape1"
+        android:padding="10dp"
+        android:text="Security Question"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner_ques_change"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:theme="@style/DevenTheme"
+        android:prompt="@string/choose_ques" />
+
+    <EditText
+        android:id="@+id/security_ans_change"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/message_field"
+        android:gravity="center"
+        android:hint="@string/security_answer"
+        android:padding="5dp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/save_bt"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/selector_button2"
+        android:theme="@android:style/Theme"
+        android:text="Save"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+</LinearLayout>

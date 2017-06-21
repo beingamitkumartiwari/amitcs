@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_title">#ff272727</color>
+    <color name="dialog_background">#102CFF</color>
+    <color name="dialog_background1">#102CFF</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="my_primary_color">#2b1b38</color>
+    <color name="my_primary_dark_color">#2b1b38</color>
+    <!--<color name="my_primary_color">#102CFF</color>-->
+    <!--<color name="my_primary_dark_color">#102CFF</color>-->
+    <color name="my_accent_color">#e91e63</color>
+    <color name="my_control_normal_color">#ffec407a</color>
+    <color name="my_control_activated_color">#ffd81b60</color>
+    <color name="my_control_highlight_color">#fff50057</color>
+    <color name="myDrawerBackground">#F2F2F2</color>
+</resources>

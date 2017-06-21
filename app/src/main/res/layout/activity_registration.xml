@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myDrawerBackground"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_shape_main"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textview_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dialog_shape1"
+                android:padding="10dp"
+                android:text="Registration"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"  />
+
+            <EditText
+                android:id="@+id/passcode"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/message_field"
+                android:gravity="center"
+                android:hint="@string/hint_pass"
+                android:inputType="numberPassword"
+                android:padding="5dp"
+                android:textColor="@android:color/black"  />
+
+            <EditText
+                android:id="@+id/confirm_passcode"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/message_field"
+                android:gravity="center"
+                android:hint="@string/confirm_passcode"
+                android:inputType="numberPassword"
+                android:padding="5dp"
+                android:textColor="@android:color/black"  />
+
+            <CheckBox
+                android:id="@+id/input_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="15dp"
+                android:checked="false"
+                android:text="Alpha numeric keypad  "
+                android:textColor="@android:color/white"
+                android:textSize="12sp" 
+                android:layout_marginRight="15dp"/>
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/selector_button2"
+                android:padding="5dp"
+                android:theme="@android:style/Theme"
+                android:text="Submit"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"  />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</LinearLayout>
